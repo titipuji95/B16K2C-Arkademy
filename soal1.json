@@ -1,0 +1,35 @@
+function biodata(string , number){
+var biodata_asli ="";
+	nama = "Titi Puji Lestari",
+	age = 24,
+	addresss = "Ds Pisangan Jaya Rt/Rw 003/001 Kec Sepatan Kab Tangerang",
+	hobbies = ["membaca", "menyanyi"],
+	is_married = false,
+	list_school = [{
+		nama_sekolah : "SMA N 1 Ulujami",
+		year_in : 2010,
+		year_out : 2013,
+		major : "IPA"
+	},
+	{
+		nama_sekolah : "STMIK Widya Pratama Pekalongan",
+		year_in : 2013,
+		year_out : 2017,
+		major : "Teknik Informatika"
+	}
+	],
+	skills = [{
+		skill_name : "Desain Grafis",
+		level : "beginner"
+	},
+	{
+		skill_name : "Networking",
+		level : "beginner"
+	}],
+	interest_in_coding = true;
+return biodata_asli;
+
+};
+
+
+
